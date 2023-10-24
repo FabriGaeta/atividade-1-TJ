@@ -9,7 +9,7 @@ public class LeaderboardManager : MonoBehaviour
 
     
     private const string LeaderboardKey = "leaderboard";
-    public const int MaxScores = 5;
+    public const int MaxScores = 999;
     
     public LeaderboardData LeaderboardData { get; private set; } = new LeaderboardData();
     
@@ -25,6 +25,26 @@ public class LeaderboardManager : MonoBehaviour
         var result  = JsonUtility.FromJson <LeaderboardData>(leaderboardJson);
         LeaderboardData = result;
         // DontDestroyOnLoad(gameObject);
+    }
+
+    public int FindScorePosition(int score){
+        var leaderboardScores = LeaderboardData.leaderboardScores;
+        for (var i = 0; i <= leaderboardScores.Count; i++)
+        {
+            if (i == leaderboardScores.Count)
+            {
+                return leaderboardScores.Count + 1;
+            }
+            
+            var cScore = leaderboardScores[i];
+            if (score > cScore.score)
+            {
+                return i + 1;
+            }
+        }
+
+        return MaxScores;
+
     }
 
     public void AddScore(string name, int score)
