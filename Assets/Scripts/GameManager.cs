@@ -136,6 +136,10 @@ public class GameManager : MonoBehaviour
     private void EndGame()
     {
         //TODO
+        if (LeaderboardManager.Singleton != null)
+        {
+            LeaderboardManager.Singleton.AddScore("TestScore", _score);
+        }
         SceneManager.LoadScene("Menu");
     }
 
