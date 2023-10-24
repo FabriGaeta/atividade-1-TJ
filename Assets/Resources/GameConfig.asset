@@ -13,15 +13,120 @@ MonoBehaviour:
   m_Name: GameConfig
   m_EditorClassIdentifier: 
   _artPieces:
-  - _name: Pato Name
-    _artSprite: {fileID: 21300000, guid: 229e2caba2ae8974e8f2356697e65554, type: 3}
-    _movement: Realpato
-    _date: Data do pato
-    _artist: Leonardo de Pato
-    _description: "\xC9 um pato"
-  - _name: Leaum
-    _artSprite: {fileID: 21300000, guid: 1cd214ad796b2c2439bda3eb530b75c0, type: 3}
-    _movement: Leaozaum
-    _date: Data leaum
-    _artist: Leonardo D'Caprioo
-    _description: miau
+  - _name: "A adora\xE7\xE3o dos magos"
+    _artSprite: {fileID: 21300000, guid: 7a23cc564f9dc9945ab5642af8ccfbe8, type: 3}
+    _movement: Barroco
+    _date: 1609
+    _artist: Paul Rubens
+    _description: Atualmente encontra-se no Museu do prado, em Madrid, Espanha
+  - _name: "A convers\xE3o de S\xE3o Paulo"
+    _artSprite: {fileID: 21300000, guid: 938a1e84a49b9ff478c0043dd2b9fc2c, type: 3}
+    _movement: Barroco
+    _date: 1601
+    _artist: Caravaggio
+    _description: "Atualmente encontra-se na Cole\xE7\xE3o Odescalchi Balbi de Roma,
+      It\xE1lia"
+  - _name: A ronda da noite
+    _artSprite: {fileID: 21300000, guid: 2528e420e992ca94eb4e258b47caf4fb, type: 3}
+    _movement: Barroco
+    _date: 1642
+    _artist: Rembrandt van Rijn
+    _description: "atualmente encontra-se no Rijksmuseum em Amsterdam, Pa\xEDses
+      Baixos"
+  - _name: "A sagrada fam\xEDlia com s\xE3o Jo\xE3o Batista "
+    _artSprite: {fileID: 21300000, guid: a98154a9fe5316b4181669fc8716ea2a, type: 3}
+    _movement: Barroco
+    _date: 1650
+    _artist: "Bartolom\xE9 Esteban Murillo"
+    _description: "Atualmente encontra-se no Museu da Miseric\xF3rdia do Porto, no
+      Porto, Portugal"
+  - _name: "A mo\xE7a do brinco de p\xE9rola"
+    _artSprite: {fileID: 21300000, guid: 63bc80768c92a7543a9b323fd52e8f46, type: 3}
+    _movement: Barroco
+    _date: 1665
+    _artist: Johannes Vermeer
+    _description: "atualmente encontra-se no Rijksmuseum em Amsterdam, Pa\xEDses
+      Baixos"
+  - _name: As meninas
+    _artSprite: {fileID: 21300000, guid: 197c72e8b8403994f8353d8308559d47, type: 3}
+    _movement: Barroco
+    _date: 1656
+    _artist: "Diego Vel\xE1zquez"
+    _description: atualmente encontra-se no museu do prado em Madrid, Espanha
+  - _name: Judite Decapitando Holofernes
+    _artSprite: {fileID: 21300000, guid: 5e8549acbf1f77e44b8d56814c778fc0, type: 3}
+    _movement: Barroco
+    _date: entre 1614 e 1620
+    _artist: Artemisia Gentileschi
+    _description: "atualmente encontra-se no museu de Capodimonte em N\xE1poles,
+      It\xE1lia"
+  - _name: O Rapto das Filhas de Leucipe
+    _artSprite: {fileID: 21300000, guid: 0d675b57ce653d94b81ca5fb8ce390b3, type: 3}
+    _movement: Barroco
+    _date: 1618
+    _artist: Paul Rubens
+    _description: atualmente encontra-se na galeria de arte Pinakothek, em Munique,
+      Alemanha
+  - _name: Os trapaceiros
+    _artSprite: {fileID: 21300000, guid: 409b175e2bba9af4dab98f8b6a232dd1, type: 3}
+    _movement: Barroco
+    _date: 1595
+    _artist: Caravaggio
+    _description: atualmente encontra-se no Museu de Arte Kimbell no Texas, EUA
+  - _name: "S\xE3o Jo\xE3o Batista no deserto"
+    _artSprite: {fileID: 21300000, guid: 02bb72afa4887fa4e9380697c11051ee, type: 3}
+    _movement: Barroco
+    _date: 1604
+    _artist: Caravaggio
+    _description: atualmente encontra-se no Museu de Arte Nelson-Atkins em Kansas
+      city, EUA
+  - _name: A mulher que chora
+    _artSprite: {fileID: 21300000, guid: c8b35d74781865c4cab1d4a0043b0458, type: 3}
+    _movement: Cubismo
+    _date: 1937
+    _artist: Pablo Picasso
+    _description: Atualmente encontra-se no Museu Tate em Liverpool, Inglaterra
+  - _name: Autoretrato
+    _artSprite: {fileID: 21300000, guid: 02ad0b872462cc543b33f3c616dc614b, type: 3}
+    _movement: Cubismo
+    _date: 1923
+    _artist: "salvador dal\xED"
+    _description: "Atualmente encontra-se no Museo Nacional Centro de Arte Reina
+      Sof\xEDa em Madrid, Espanha"
+  - _name: Guernica
+    _artSprite: {fileID: 21300000, guid: ecff72d55787e9c409f223b72c833b49, type: 3}
+    _movement: Cubismo
+    _date: 1937
+    _artist: Pablo Picasso
+    _description: "Atualmente encontra-se no Museu Nacional Centro de Arte Reina
+      Sofia em Paris, Fran\xE7a"
+  - _name: Les Demoiselles dAvignon
+    _artSprite: {fileID: 21300000, guid: 77b3ce5f2de2f5d4e89f6bec1aaae042, type: 3}
+    _movement: Cubismo
+    _date: 1907
+    _artist: Pablo Picasso
+    _description: Atualmente encontra-se no museu de arte moderna de Nova York, EUA
+  - _name: A menina com Bandolim
+    _artSprite: {fileID: 21300000, guid: 5c9f607e990577c4aa62790e0e3bc883, type: 3}
+    _movement: Cubismo
+    _date: 1910
+    _artist: Pablo Picasso
+    _description: Atualmente encontra-se no museu de arte moderna de Nova York, EUA
+  - _name: Mulher no espelho
+    _artSprite: {fileID: 21300000, guid: 35745aa21f1b89445b922b1b6fdbeda7, type: 3}
+    _movement: Cubismo
+    _date: 1932
+    _artist: Pablo Picasso
+    _description: Atualmente encontra-se no museu de arte moderna de Nova York
+  - _name: Nu descendo uma escada numero 2
+    _artSprite: {fileID: 21300000, guid: 450e96856067cbd41bafee99692667a5, type: 3}
+    _movement: Cubismo
+    _date: 1912
+    _artist: Marcel Duchamp
+    _description: "Atualemnte encontra-se no museu de arte da filad\xE9lfia, EUA"
+  - _name: Retrato de Pablo Picasso
+    _artSprite: {fileID: 21300000, guid: b49801f571e20c542abb464686127af5, type: 3}
+    _movement: Cubismo
+    _date: 1912
+    _artist: Juan Gris
+    _description: atualmente encontra-se no instituto de arte de Chicago, EUA
