@@ -59,7 +59,7 @@ public class LeaderboardManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Keypad3)) // cheat to clear leaderboard
+        if (Input.GetKeyDown(KeyCode.PageUp)) // cheat to clear leaderboard
         {
             PlayerPrefs.DeleteKey(LeaderboardKey);
             PlayerPrefs.Save();

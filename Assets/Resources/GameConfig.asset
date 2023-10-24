@@ -19,48 +19,6 @@ MonoBehaviour:
     _date: Data do pato
     _artist: Leonardo de Pato
     _description: "\xC9 um pato"
-  - _name: Pato Name
-    _artSprite: {fileID: 21300000, guid: 229e2caba2ae8974e8f2356697e65554, type: 3}
-    _movement: Realpato
-    _date: Data do pato
-    _artist: Leonardo de Pato
-    _description: "\xC9 um pato"
-  - _name: Pato Name
-    _artSprite: {fileID: 21300000, guid: 229e2caba2ae8974e8f2356697e65554, type: 3}
-    _movement: Realpato
-    _date: Data do pato
-    _artist: Leonardo de Pato
-    _description: "\xC9 um pato"
-  - _name: Pato Name
-    _artSprite: {fileID: 21300000, guid: 229e2caba2ae8974e8f2356697e65554, type: 3}
-    _movement: Realpato
-    _date: Data do pato
-    _artist: Leonardo de Pato
-    _description: "\xC9 um pato"
-  - _name: Leaum
-    _artSprite: {fileID: 21300000, guid: 1cd214ad796b2c2439bda3eb530b75c0, type: 3}
-    _movement: Leaozaum
-    _date: Data leaum
-    _artist: Leonardo D'Caprioo
-    _description: miau
-  - _name: Leaum
-    _artSprite: {fileID: 21300000, guid: 1cd214ad796b2c2439bda3eb530b75c0, type: 3}
-    _movement: Leaozaum
-    _date: Data leaum
-    _artist: Leonardo D'Caprioo
-    _description: miau
-  - _name: Leaum
-    _artSprite: {fileID: 21300000, guid: 1cd214ad796b2c2439bda3eb530b75c0, type: 3}
-    _movement: Leaozaum
-    _date: Data leaum
-    _artist: Leonardo D'Caprioo
-    _description: miau
-  - _name: Leaum
-    _artSprite: {fileID: 21300000, guid: 1cd214ad796b2c2439bda3eb530b75c0, type: 3}
-    _movement: Leaozaum
-    _date: Data leaum
-    _artist: Leonardo D'Caprioo
-    _description: miau
   - _name: Leaum
     _artSprite: {fileID: 21300000, guid: 1cd214ad796b2c2439bda3eb530b75c0, type: 3}
     _movement: Leaozaum
