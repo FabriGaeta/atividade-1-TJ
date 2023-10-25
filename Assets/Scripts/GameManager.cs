@@ -26,6 +26,16 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private GameConfig _gameConfig;
 
+    // Game Over Screen
+
+    [SerializeField] private GameObject _gameOverScreen;
+
+    [SerializeField] private TextMeshProUGUI _gameOverScoreText;
+
+    [SerializeField] private TextMeshProUGUI _gameOverPositionText;
+
+    [SerializeField] private TMP_InputField _gameOverInputField;
+
     private int _score;
 
     private int _currentLife;
@@ -135,11 +145,25 @@ public class GameManager : MonoBehaviour
 
     private void EndGame()
     {
-        //TODO
+        _gameOverScreen.SetActive(true);
+        _gameOverScoreText.text = _score.ToString();
+         if (LeaderboardManager.Singleton != null)
+        {
+            _gameOverPositionText.text = LeaderboardManager.Singleton.FindScorePosition(_score).ToString();
+        }
+    }
+
+    public void SendScore(){
         if (LeaderboardManager.Singleton != null)
         {
-            LeaderboardManager.Singleton.AddScore("TestScore", _score);
+            var leaderboardName = _gameOverInputField.text;
+            if(leaderboardName == null || leaderboardName.Length == 0){
+                leaderboardName = "JogadorSemNome";
+            }
+            LeaderboardManager.Singleton.AddScore(leaderboardName, _score);
         }
+        
+        
         SceneManager.LoadScene("Menu");
     }
 
