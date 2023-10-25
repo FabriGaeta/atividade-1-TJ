@@ -130,3 +130,268 @@ MonoBehaviour:
     _date: 1912
     _artist: Juan Gris
     _description: atualmente encontra-se no instituto de arte de Chicago, EUA
+  - _name: A morte e as mascaras
+    _artSprite: {fileID: 21300000, guid: 743ce424ee8af9a4c9b6ce9c682a1e1c, type: 3}
+    _movement: Expressionismo
+    _date: 1987
+    _artist: James Ensor
+    _description: Atualmente encontra-se no museu de arte moderna de Nova York, EUA
+  - _name: Autoretrato com lanterna chinesa
+    _artSprite: {fileID: 21300000, guid: 9d9350ee1737fef49b4647a52a9dca52, type: 3}
+    _movement: Expressionismo
+    _date: 1912
+    _artist: Egon Schiele
+    _description: Atualmente encontra-se no museu de arte moderna austriaco em viena,
+      Austria
+  - _name: Cavalos azuis
+    _artSprite: {fileID: 21300000, guid: bb22ff4d34ff687449f79d524d9187a6, type: 3}
+    _movement: Expressionismo
+    _date: 1911
+    _artist: Franz Marc
+    _description: Atualmente encontra-se na A Galeria municipal da Lenbachhaus em
+      Munique, Alemanha
+  - _name: Marzella
+    _artSprite: {fileID: 21300000, guid: f7bb20c145ae05e45853697c73280c98, type: 3}
+    _movement: Expressionismo
+    _date: 1910
+    _artist: Franz Marc
+    _description: Ernst Ludwig Kirchner
+  - _name: O cavaleiro azul
+    _artSprite: {fileID: 21300000, guid: cc1ccd060f4e9564eb012cc76ad27e1b, type: 3}
+    _movement: Expressionismo
+    _date: 1903
+    _artist: Wassily Kandinsky
+    _description: "Atualmente encontra-se em uma cole\xE7\xE3o privada"
+  - _name: O grito
+    _artSprite: {fileID: 21300000, guid: cdd6c88b43e3ae14da37eaa65d49d646, type: 3}
+    _movement: Expressionismo
+    _date: 1910
+    _artist: Edvard Munch
+    _description: Atualmente encontra-se no museu de arte de Oslo, Noruega
+  - _name: Retrato de um homem
+    _artSprite: {fileID: 21300000, guid: 62409c884d9657240bb47c1636340d96, type: 3}
+    _movement: Expressionismo
+    _date: 1918
+    _artist: Erich Heckel
+    _description: Atualmente encontra-se em no instituto de arte Clark em Massachusetts,
+      EUA
+  - _name: A fogueira
+    _artSprite: {fileID: 21300000, guid: cf96114b8ea7e92499eaabe570508060, type: 3}
+    _movement: Realismo
+    _date: 1880
+    _artist: Winslow Home
+    _description: Atualmente encontra-se no Museu de Belas Artes de Boston, EUA
+  - _name: "Almo\xE7o dos remadores"
+    _artSprite: {fileID: 21300000, guid: 368e9f06fc07eb04fb5dcc1307223679, type: 3}
+    _movement: Realismo
+    _date: entre 1880 e 1881
+    _artist: Pierre-Auguste
+    _description: atualmente encontra-se na Phillips Collection em Washington DC,
+      EUA
+  - _name: Angelus
+    _artSprite: {fileID: 21300000, guid: 39d19308de6bc844d86174784a3768e1, type: 3}
+    _movement: Realismo
+    _date: 1858
+    _artist: "Jean-Fran\xE7ois Millet"
+    _description: "atualmente encontra-se no Museu de Orsay em Paris, Fran\xE7a"
+  - _name: Campones com uma enxada
+    _artSprite: {fileID: 21300000, guid: 5910fd3aaa6e45b40b3e6c575976dfed, type: 3}
+    _movement: Realismo
+    _date: entre 1860 - 1862
+    _artist: "Jean-Fran\xE7ois Millet"
+    _description: atualmente encontra-se no Getty Museum em Los Angeles, EUA
+  - _name: "O est\xFAdio do artista"
+    _artSprite: {fileID: 21300000, guid: 6c95552914c1dca439e7904bd9eef6f4, type: 3}
+    _movement: Realismo
+    _date: 1855
+    _artist: Gustave Courbet
+    _description: "Atualmente encontra-se no Museu de Orsay em Paris, Fran\xE7a"
+  - _name: Os camponeses de Flagey
+    _artSprite: {fileID: 21300000, guid: 655ace4fddf37ee45a0e09ef7516f4f5, type: 3}
+    _movement: Realismo
+    _date: 1848
+    _artist: Gustave Courbet
+    _description: "Atualmente encontra-se no Museu Gustave Courbet em Ornans, Fran\xE7a"
+  - _name: Retrato de Emile Zola
+    _artSprite: {fileID: 21300000, guid: 876f1ab9c479d32459d081584d3c352c, type: 3}
+    _movement: Realismo
+    _date: 1868
+    _artist: "\xC9douard Manet"
+    _description: "atualmente encontra-se no Museu de Orsay em Paris, Fran\xE7a"
+  - _name: Autoretrato de Gustave Courbet
+    _artSprite: {fileID: 21300000, guid: 63d4798c4d360a14ea099affe3d69301, type: 3}
+    _movement: Realismo
+    _date: 1843
+    _artist: Gustave Courbet
+    _description: "A obra atualmente faz parte de uma cole\xE7\xE3o privada"
+  - _name: Quebradores de pedras
+    _artSprite: {fileID: 21300000, guid: eb01d7e9312cc8c40bca4ef9a806cdbf, type: 3}
+    _movement: Realismo
+    _date: 1849
+    _artist: Gustave Courbet
+    _description: Atualmente encontra-se na Pinacoteca dos Mestres Antigos em Dresden,
+      Alemanha
+  - _name: "A anuncia\xE7\xE3o"
+    _artSprite: {fileID: 21300000, guid: 4f9c712c5965cdd4987e797845bf7c7f, type: 3}
+    _movement: Renascimento
+    _date: 'entre 1472-1475 '
+    _artist: Leonardo da Vinci
+    _description: "Atualmente encontra-se na Galeria degli Uffizi em Floren\xE7a,
+      It\xE1lia."
+  - _name: "A cria\xE7\xE3o de Ad\xE3o"
+    _artSprite: {fileID: 21300000, guid: 0b8ba7fac9f442842aa69d07ec38e0d0, type: 3}
+    _movement: Renascimento
+    _date: 1511
+    _artist: Michelangelo
+    _description: Atualmente encontra-se na capela sistina, Vaticano
+  - _name: A primavera
+    _artSprite: {fileID: 21300000, guid: c417856d9501c2945b7735b29c00440e, type: 3}
+    _movement: Renascimento
+    _date: entre 1478 - 1482
+    _artist: Sandro Botticelli
+    _description: "atualmente encontra-se na Galleria degli Uffizi em Floren\xE7a,
+      It\xE1lia"
+  - _name: Afresco Escola de Atenas
+    _artSprite: {fileID: 21300000, guid: a158014006f82944aa382f77622fc550, type: 3}
+    _movement: Renascimento
+    _date: entre 1509 e 1511
+    _artist: Rafael Sanzio
+    _description: "atualmente encontra-se no Pal\xE1cio Apost\xF3lico, Vaticano"
+  - _name: Mona lisa
+    _artSprite: {fileID: 21300000, guid: 4077fba10eaf95e41a193c48cb24f393, type: 3}
+    _movement: Renascimento
+    _date: entre 1503 e 1506
+    _artist: Leonardo Da Vinci
+    _description: "Atualmente encontra-se no musou do Louvre em Paris, Fran\xE7a"
+  - _name: O batismo de Cristo
+    _artSprite: {fileID: 21300000, guid: 8099ef852632c21458351ce126532774, type: 3}
+    _movement: Renascimento
+    _date: entre 1472-1475
+    _artist: Leonardo Da Vinci
+    _description: "Atualmente encontra-se na Galleria degli Uffizi em Floren\xE7a,
+      It\xE1lia"
+  - _name: O beijo de Judas
+    _artSprite: {fileID: 21300000, guid: 6def1fbb231171a43b62f1c3d92427be, type: 3}
+    _movement: Renascimento
+    _date: entre 1304-1306
+    _artist: Giotto di Bondone
+    _description: "Atualmente encontrase na Cappella degli Scrovegni em Padova, It\xE1lia"
+  - _name: "O Nascimento de V\xEAnus"
+    _artSprite: {fileID: 21300000, guid: ef145eaf7fdc1bc4da5549e0f979e199, type: 3}
+    _movement: Renascimento
+    _date: entre 1484-1485
+    _artist: Sandro Botticelli
+    _description: "atualmente encontra-se na Galleria degli Uffizi em Floren\xE7a,
+      It\xE1lia"
+  - _name: "O ju\xEDzo final"
+    _artSprite: {fileID: 21300000, guid: e66171721e3b136499b32ab08dad167b, type: 3}
+    _movement: Renascimento
+    _date: entre 1536 e 1541
+    _artist: ' Michelangelo'
+    _description: Atualmente encontra-se na capela Sistina, no Vaticano
+  - _name: "Abrigos de pedra em Bhimbetka \xCDndia"
+    _artSprite: {fileID: 21300000, guid: 6b38caf7f1ac8744eb8892f274233309, type: 3}
+    _movement: Rupestre
+    _date: "Aproximadamente h\xE1 30 mil anos"
+    _artist: '-'
+    _description: Situado no estado indiano de Madhya Pradesh
+  - _name: "Caverna Chauvet Fran\xE7a"
+    _artSprite: {fileID: 21300000, guid: 708ed643bca5ca349a7380e248812cff, type: 3}
+    _movement: Rupestre
+    _date: "Aproximadamente h\xE1 35 mil anos"
+    _artist: '-'
+    _description: "Est\xE1 localizada na regi\xE3o de Ardeche, no sul da Fran\xE7a."
+  - _name: Caverna-Pettakere
+    _artSprite: {fileID: 21300000, guid: 598f91c01106d814c992cd43d91aa840, type: 3}
+    _movement: Rupestre
+    _date: "Aproximadamente h\xE1 40 mil anos"
+    _artist: '-'
+    _description: "Est\xE1 situada na ilha de Sulawesi, na Indon\xE9sia"
+  - _name: "Caverna das m\xE3os"
+    _artSprite: {fileID: 21300000, guid: 13af05338faecb64a873a87e4bb99b9c, type: 3}
+    _movement: Rupestre
+    _date: "Aproximadamente h\xE1 9 mil anos"
+    _artist: '-'
+    _description: "Est\xE1 situada na Patag\xF4nia argentina"
+  - _name: Parque Nacional Kakadu
+    _artSprite: {fileID: 21300000, guid: 591a5164a4651ec4586678fddda16d8a, type: 3}
+    _movement: Rupestre
+    _date: "Aproximadamente h\xE1 20 mil anos"
+    _artist: '-'
+    _description: "situado na regi\xE3o escassamente povoada do norte da Austr\xE1lia"
+  - _name: Caverna de Lascaux
+    _artSprite: {fileID: 21300000, guid: 7d3a4d66a94d4f8439d1a05b0835a30f, type: 3}
+    _movement: Rupestre
+    _date: "Aproximadamente h\xE1 17 mil anos"
+    _artist: '-'
+    _description: "situado na regi\xE3o de Lascaux, no sul da Fran\xE7a"
+  - _name: Caverna dos nadadores
+    _artSprite: {fileID: 21300000, guid: 436b6795292590245912344623a20e72, type: 3}
+    _movement: Rupestre
+    _date: "Aproximadamente h\xE1 10 mil anos"
+    _artist: '-'
+    _description: "situado no deserto L\xEDbio do Sara"
+  - _name: Pedra furada
+    _artSprite: {fileID: 21300000, guid: bc0147ad819cb03498e57281d8de1b47, type: 3}
+    _movement: Rupestre
+    _date: "Aproximadamente h\xE1 60 mil anos"
+    _artist: '-'
+    _description: "situado no atual estado do Piau\xED"
+  - _name: "A persist\xEAncia da mem\xF3ria"
+    _artSprite: {fileID: 21300000, guid: 706e649f049f3ab4d989c625a86968bd, type: 3}
+    _movement: Surrealismo
+    _date: 1931
+    _artist: salvador Dali
+    _description: Atualmente encontra-se no Museu de arte moderna em Nova york, EUA
+  - _name: Abaporu
+    _artSprite: {fileID: 21300000, guid: 340820ac2fd250b4a8eb177c39131a32, type: 3}
+    _movement: Surrealismo
+    _date: 1928
+    _artist: Tarsila do Amaral
+    _description: Atualmente encontra-se no Museu de Arte Latino-americana de Buenos
+      Aires, Argentina
+  - _name: "Anivers\xE1rio"
+    _artSprite: {fileID: 21300000, guid: 422b25ff124268c4bb4cb17a4b843061, type: 3}
+    _movement: Surrealismo
+    _date: 1915
+    _artist: Marc Chagall
+    _description: Atualmente encontra-se no Museu de arte moderna de Nova York, EUA
+  - _name: "Irm\xE3os"
+    _artSprite: {fileID: 21300000, guid: 3ce4fd7dd44af28498ba55102e616bfe, type: 3}
+    _movement: Surrealismo
+    _date: 1930
+    _artist: Paul Klee
+    _description: "Atualmente encontra-se em uma cole\xE7\xE3o privada"
+  - _name: "Meus av\xF3s meus pais e eu"
+    _artSprite: {fileID: 21300000, guid: 29f9f6a50a73be349899988e20dd4168, type: 3}
+    _movement: Surrealismo
+    _date: 1936
+    _artist: Frida Kahlo
+    _description: Atualmente encontra-se no Museu de Arte Moderna em Nova York, EUA
+  - _name: O Elefante Celebes
+    _artSprite: {fileID: 21300000, guid: 4024b9d555261604f980defd57bd8f0b, type: 3}
+    _movement: Surrealismo
+    _date: 1921
+    _artist: Max Ernst
+    _description: Atualmente encontra-se no museu nacional de arte moderna do Reino
+      Unido em Londres, Inglaterra
+  - _name: O filho do homem
+    _artSprite: {fileID: 21300000, guid: ac22565e427ca0141bc4b04b3ca34d41, type: 3}
+    _movement: Surrealismo
+    _date: 1964
+    _artist: "Ren\xE9 Magritte"
+    _description: "Atualmente encontra-se em uma cole\xE7\xE3o privada"
+  - _name: Os amantes
+    _artSprite: {fileID: 21300000, guid: 4aaa0dd8edf52564da6b2bdc8997454c, type: 3}
+    _movement: Surrealismo
+    _date: 1928
+    _artist: "Ren\xE9 Magritte"
+    _description: "Atualmente encontra-se na Galeria Nacional da Austr\xE1lia em
+      Camberra, Austr\xE1lia"
+  - _name: Urutu
+    _artSprite: {fileID: 21300000, guid: 18c0241ecb4fec74ca0d8ae08b3d912c, type: 3}
+    _movement: Surrealismo
+    _date: 1928
+    _artist: Tarsila do Amaral
+    _description: "Atualmente encontra-se na cole\xE7\xE3o Gilberto Chateaubriand
+      do MAM do Rio de Janeiro, Brasil"
