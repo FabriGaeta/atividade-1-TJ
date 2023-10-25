@@ -26,8 +26,14 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private GameConfig _gameConfig;
 
-    // Game Over Screen
+    [SerializeField] private AudioClip _wrongAnswerAudio;
+    
+    [SerializeField] private AudioClip _rightAnswerAudio;
+    
+    [SerializeField] private AudioClip _gameOverAudio;
 
+    // Game Over Screen
+    [Header("Game Over")]
     [SerializeField] private GameObject _gameOverScreen;
 
     [SerializeField] private TextMeshProUGUI _gameOverScoreText;
@@ -37,7 +43,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TMP_InputField _gameOverInputField;
     
     // Art Description Screen
-    
+    [Header("ArtDescription")]
     [SerializeField] private GameObject _artDescriptionScreen;
     
     [SerializeField] private TextMeshProUGUI _artDescriptionNameText;
@@ -48,6 +54,8 @@ public class GameManager : MonoBehaviour
 
 
 
+    private AudioSource _audioSource;
+    
     private int _score;
 
     private int _currentLife;
@@ -64,6 +72,7 @@ public class GameManager : MonoBehaviour
     void Awake()
     {
         Singleton = this;
+        _audioSource = GetComponent<AudioSource>();
         _pendingArts.AddRange(_gameConfig.ArtPieces);
         _scoreText.text = "Pontuação: " + _score.ToString();
         foreach (var aPiece in _gameConfig.ArtPieces)
@@ -134,12 +143,14 @@ public class GameManager : MonoBehaviour
         bool result = option == _currentArt.Movement;
         if (result)
         {
+            _audioSource.PlayOneShot(_rightAnswerAudio);
             _score++;
             _scoreText.text ="Pontuação: " + _score.ToString();
             ShowArtDescription();
         }
         else
         {
+            _audioSource.PlayOneShot(_wrongAnswerAudio);
             RemoveLife();
         }
         return result;
@@ -180,6 +191,7 @@ public class GameManager : MonoBehaviour
 
     private void EndGame()
     {
+        _audioSource.PlayOneShot(_gameOverAudio);
         _gameOverScreen.SetActive(true);
         _gameOverScoreText.text = _score.ToString();
          if (LeaderboardManager.Singleton != null)
