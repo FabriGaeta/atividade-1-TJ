@@ -15,11 +15,13 @@ public class LeaderboardMenu : MonoBehaviour
         if (LeaderboardManager.Singleton != null)
         {
             var leaderboardScores = LeaderboardManager.Singleton.LeaderboardData.leaderboardScores;
+            var ranking = 1;
             foreach (var leaderboardScore in leaderboardScores)
             {
                 var leaderboardItemGameObject = Instantiate(_leaderboardItemPrefab, _leaderboardItemsParent);
                 var leaderboardItem = leaderboardItemGameObject.GetComponent<LeaderboardMenuItem>();
-                leaderboardItem.Setup(leaderboardScore);
+                leaderboardItem.Setup(leaderboardScore, ranking);
+                ranking++;
             }
         }
     }

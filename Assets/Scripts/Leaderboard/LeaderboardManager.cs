@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class LeaderboardManager : MonoBehaviour
@@ -57,12 +58,20 @@ public class LeaderboardManager : MonoBehaviour
         PlayerPrefs.Save();
     }
 
+    public void AbrirMenu() {
+        SceneManager.LoadScene("Menu");
+    }
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.PageUp)) // cheat to clear leaderboard
         {
             PlayerPrefs.DeleteKey(LeaderboardKey);
             PlayerPrefs.Save();
+        }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("Menu");
         }
     }
 }

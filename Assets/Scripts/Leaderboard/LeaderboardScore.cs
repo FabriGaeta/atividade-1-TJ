@@ -19,5 +19,4 @@ public class LeaderboardScore
     public String name;
 
     public int score;
-
 }

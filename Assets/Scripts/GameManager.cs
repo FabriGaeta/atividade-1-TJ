@@ -43,7 +43,7 @@ public class GameManager : MonoBehaviour
     {
         Singleton = this;
         _pendingArts.AddRange(_gameConfig.ArtPieces);
-        _scoreText.text = _score.ToString();
+        _scoreText.text = "Pontuação: " + _score.ToString();
         foreach (var aPiece in _gameConfig.ArtPieces)
         {
             _optionsSet.Add(aPiece.Movement);
@@ -114,7 +114,7 @@ public class GameManager : MonoBehaviour
         {
             SetupNextChallenge();
             _score++;
-            _scoreText.text = _score.ToString();
+            _scoreText.text ="Pontuação: " + _score.ToString();
         }
         else
         {
