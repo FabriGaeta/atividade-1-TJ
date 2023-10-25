@@ -35,6 +35,18 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _gameOverPositionText;
 
     [SerializeField] private TMP_InputField _gameOverInputField;
+    
+    // Art Description Screen
+    
+    [SerializeField] private GameObject _artDescriptionScreen;
+    
+    [SerializeField] private TextMeshProUGUI _artDescriptionNameText;
+    
+    [SerializeField] private TextMeshProUGUI _artDescriptionArtistText;
+
+    [SerializeField] private TextMeshProUGUI _artDescriptionDescriptionText;
+
+
 
     private int _score;
 
@@ -122,9 +134,9 @@ public class GameManager : MonoBehaviour
         bool result = option == _currentArt.Movement;
         if (result)
         {
-            SetupNextChallenge();
             _score++;
             _scoreText.text ="Pontuação: " + _score.ToString();
+            ShowArtDescription();
         }
         else
         {
@@ -143,13 +155,36 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    private void ShowArtDescription()
+    {
+        _artDescriptionScreen.SetActive(true);
+        _artDescriptionNameText.text = String.Format("{0} ({1})", _currentArt.Name, _currentArt.Date);
+        _artDescriptionArtistText.text = _currentArt.Artist;
+        _artDescriptionDescriptionText.text = _currentArt.Description;
+        
+        //this is needed to refresh the layout dimensions...
+        _artDescriptionNameText.transform.parent.gameObject.SetActive(false);
+        _artDescriptionArtistText.transform.parent.gameObject.SetActive(false);
+        _artDescriptionDescriptionText.transform.parent.gameObject.SetActive(false);
+        Invoke(nameof(RefreshLayout), 0);
+        Canvas.ForceUpdateCanvases();
+    }
+
+    private void RefreshLayout()
+    {
+        _artDescriptionNameText.transform.parent.gameObject.SetActive(true);
+        _artDescriptionArtistText.transform.parent.gameObject.SetActive(true);
+        _artDescriptionDescriptionText.transform.parent.gameObject.SetActive(true);
+        Canvas.ForceUpdateCanvases();
+    }
+
     private void EndGame()
     {
         _gameOverScreen.SetActive(true);
         _gameOverScoreText.text = _score.ToString();
          if (LeaderboardManager.Singleton != null)
         {
-            _gameOverPositionText.text = LeaderboardManager.Singleton.FindScorePosition(_score).ToString();
+            _gameOverPositionText.text = LeaderboardManager.Singleton.FindScorePosition(_score).ToString() +"°";
         }
     }
 
@@ -172,6 +207,12 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             SceneManager.LoadScene("Menu");
+        }
+        
+        if (_artDescriptionScreen.activeSelf && Input.GetMouseButtonDown(0))
+        {
+            _artDescriptionScreen.SetActive(false);
+            SetupNextChallenge();
         }
     }
 }
