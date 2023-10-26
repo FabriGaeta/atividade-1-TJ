@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
+
+
     public void AbrirCredito() {
         SceneManager.LoadScene("Credits");
     }
