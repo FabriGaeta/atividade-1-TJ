@@ -677,9 +677,10 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Produtores / Diretores\r\nBruno Reis\r\nFabricio Gaeta\r\nGabriel Zambianco\r\nRenan
     Lorijola\r\n\r\nProgramadores\r\nBruno Reis\r\nFabricio Gaeta\r\nGabriel Zambianco\r\nRenan
-    Lorijola\r\n\r\nArte\nPinterest\nWall Alpha Coders\nFlaticon\nFreepik\n\n\r\nAudio\r\nThe
-    Last Of Us I \r\nThe Last of Us II\r\n\r\nEsperamos que tenham se divertido!!
-    :)\r"
+    Lorijola\r\n\r\nArte\r\nPinterest\r\nWall Alpha Coders\r\nFlaticon\r\nFreepik\r\nCulturalizando\r\nCultura
+    Genial\r\nWikiart\r\nAventuras na hist\xF3ria\r\nWikipedia\r\nUniversia\r\nArtsdot\r\n\r\nAudio\r\nThe
+    Last Of Us I \r\nThe Last of Us II\r\nAwwww (game over)\r\nApplauses (acertos)\r\nWrong
+    (erros)\r\n\r\nEsperamos que tenham se divertido!! :)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8351a65e003ae8f429a386540f806283, type: 2}
   m_sharedMaterial: {fileID: -2390645102542104050, guid: 8351a65e003ae8f429a386540f806283, type: 2}
