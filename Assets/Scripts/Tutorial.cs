@@ -26,4 +26,8 @@ public class Tutorial : MonoBehaviour
     {
         SceneManager.LoadScene("TutorialParte5");
     }
+    public void AbrirMenu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
 }
