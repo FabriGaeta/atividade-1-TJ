@@ -80,6 +80,10 @@ public class GameManager : MonoBehaviour
             _optionsSet.Add(aPiece.Movement);
         }
         SetupLifes();
+    }
+
+    private void Start()
+    {
         SetupNextChallenge();
     }
 
